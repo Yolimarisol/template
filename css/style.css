@@ -1,7 +1,7 @@
 .container__cover{
     width: 100%;
     height: 800px;
-    background-image: url(../images/Background-page.svg);
+    background-image: url(../img/brand/background.svg);
     background-position: right;
     background-repeat: no-repeat;
 }
@@ -35,15 +35,15 @@
     font-size: 16px;
     border-radius: 50px;
     margin-top: 40px;
-    background: linear-gradient(to right, #fab2b2, #f54d4d);
+    background: linear-gradient(to right, #8e90c5, #2d317a);
     color: #fff;
     cursor: pointer;
-    box-shadow: 1px 1px 30px -12px #f54d4d;
+    box-shadow: 1px 1px 30px -12px #2d317a;
     transition: all 300ms;
 }
 
 .container__cover .text input:hover{
-    box-shadow: 1px 1px 30px -6px #f54d4d;
+    box-shadow: 1px 1px 30px -6px #2d317a;
 }
 
 
