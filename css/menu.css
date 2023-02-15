@@ -101,14 +101,21 @@ header{
 
     .menu ul li a{
         color: #5c63fa;
-        font-family: 'mirt';
+        font-family: 'arsenal';
+        src: url(./font/arsenal-regular.ttf);
     }
 
     #selected{
         background: none;
         padding: 0px;
+        margin-left: 150px;
         border-radius: none;
-        color: ;
+        /*color: ;*/
+       
+    }
+    .selected2{
+        font-family: 'arsenal' !important;
+        src: url(../font/arsenal-regular.ttf) !important;
     }
 
     .menu nav img{
