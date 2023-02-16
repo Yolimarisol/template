@@ -14,6 +14,8 @@
 </head>
 <body>
     <header>
+         <!-- ID Particles.js -->
+    <div id="particles-js"></div>
         <div class="container_menu">
             <div class="logo">
                 <img src="img/brand/logowithe-01.svg" alt="Logo, marca personal">
@@ -21,18 +23,25 @@
             <div class="menu">
                 <i class="fas fa-bars" id="btn_menu"></i>
                 <div id="back_menu"></div>
-                <nav id="nav">
+                <nav >
                     <img src="img/brand/logowithe-01.svg" alt="logo, marca personal">
                     <ul>
-                        <li><a href="#" id="selected">Home</a></li>
-                        <li><a href="aboutme.html" id="selected">About me</a></li>
-                        <li><a href="services.html" id="selected">Services</a></li>
-                        <li><a href="contactme.html" id="selected">Contact me</a></li>
+                        <li><a href="#" class="selected">Home</a></li>
+                        <li><a href="aboutme.html" class="selected">About me</a></li>
+                        <li><a href="services.html" class="selected">Services</a></li>
+                        <li><a href="contactme.html" class="selected">Contact me</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
+    <script src="js/script.js"></script>
+    <!-- JS Particles.js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="js/app.js"></script>
+    
+    <!-- JS FontAwesome -->
+    <script src="https://kit.fontawesome.com/a2e8d0339c.js"></script>
     <main>
         <div class="container__cover">
             <div class="cover">
@@ -51,6 +60,7 @@
         </div>
     </main>
 
-    <script src="js/script.js"></script>
+   
+    
 </body>
 </html>
