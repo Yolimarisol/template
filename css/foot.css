@@ -1,0 +1,10 @@
+footer{
+    background-color: #2D317a;
+    padding: 10px;
+}
+.textfooter{
+    text-align: center;
+    font-family: 'arsenal';
+    font-size: 25px;
+    color: #fff;
+}

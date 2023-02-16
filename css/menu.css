@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'arsenal';
+    src: url('../font/arsenal-regular.ttf');
+}
+
+@font-face {
+    font-family: 'apple';
+    src: url('../font/apples-slices-capital.ttf');
+}
+
+@font-face {
+    font-family: 'mitr';
+    src: url('../font/mitr-regular.ttf');
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -11,20 +26,22 @@ header{
     position: fixed;
     z-index: 1;
     background-color: #2d317a;
+    display: inline-flexbox;
 }
 
 .container__menu{
-    max-width: 1200px;
+    width: 100%;
     height: 80px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
+    margin: 0;
 }
 
 .logo{
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: start;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .logo img{
@@ -33,17 +50,22 @@ header{
 }
 
 .menu{
-    display: flex;
-    align-items: center;
+    display:flex;
+    align-items: end;
+    justify-content:baseline;
+    margin-top: 6px;
 }
 
 .menu ul{
     display: flex;
+    margin-right: 30px;
 }
 
 .menu ul li{
     list-style: none;
     margin-left: 36px;
+    justify-content: baseline;
+    align-items: baseline;
 }
 
 .menu ul li a{
@@ -54,10 +76,28 @@ header{
     font-family: 'mirt';
 }
 
-#selected{
-    background: #5c63fa;
+.font-arsenal{
+    background: #5c64fa33;
     padding: 10px 40px;
+    font-family: 'arsenal' !important;
     border-radius: 50px;
+}
+
+.navbar-one {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    line-height: 65px;
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.ul {
+    height: 65px;
+    float: right;
+    margin-right: 20px;
 }
 
 .menu nav img{
@@ -104,12 +144,7 @@ header{
         font-family: 'mirt';
     }
 
-    #selected{
-        background: none;
-        padding: 0px;
-        border-radius: none;
-        color: ;
-    }
+    
 
     .menu nav img{
         display: block;
